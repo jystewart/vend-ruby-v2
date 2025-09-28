@@ -26,9 +26,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec-nc'
   spec.add_development_dependency 'webmock'
 
-  spec.add_dependency 'faraday', '~> 2.6.0'
+  spec.add_dependency 'faraday', '~> 2.13'
   spec.add_dependency 'hashie', '~> 5.0'
-  spec.add_dependency 'jwt', '~> 2.3.0'
+  spec.add_dependency 'jwt', '~> 3.1'
   spec.add_dependency 'oauth2'
   spec.add_dependency 'oj'
 end
